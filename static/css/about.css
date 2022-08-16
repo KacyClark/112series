@@ -1,4 +1,24 @@
+{% load static %}
+
+h1 { 
+    color: bright blue;
+    text-align: center;
+    text-shadow: 3px 2px aqua;
+    margin-top: 4rem;
+}
+
+p {
+    font-weight: bold;
+    font-family: arial;
+}
+
 .picture {
     margin: 2rem auto;
     border: 2px solid gray
-    float: right; }
+    float: right; 
+}
+
+.navigation {
+    justify-content: center;
+}
+
